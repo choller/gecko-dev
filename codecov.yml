@@ -1,0 +1,5 @@
+codecov:
+  require_ci_to_pass: no  # default yes
+  notify:
+    after_n_builds: 2 # until codecov submits notifications [default null]
+    wait_for_ci: no  # default yes
